@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Моё портфолио</title>
+    <link rel="stylesheet" href="style.css">
+    <!--[if lt IE 9]>
+        <script src="html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+</head>
+
+<body bgcolor="#cfcfcf">
+    <header>
+        <h1 align="center">Мой сайт-портфолио</h1>
+        <address>
+            <div>Город: Рязань</div>
+            <div>Телефон: +7-900-601-54-99</div>
+        </address>
+    </header>
+    <hr color="grey">
+    <main>
+    <aside class="aside_class">
+    <div>
+    <form action="" method="post">
+        <div><input type="text" name="name" id="name" placeholder="Ваше имя"></div>
+        <div><input type="password" name="pswrd" id="pswrd" placeholder="Пароль"></div>
+        <div><input type="submit" name="submit" id="submit" value="Войти"></div>
+        <div><input type="reset" value="Сброс"></div>
+    </form>
+    </div>
+    <div>
+        <h2>Моя статистика</h2>
+        <table border="2" cellpadding="10" cellspacing="1">
+            <tr bgcolor="#cacaca">
+                <th>Вид проекта</th>
+                <th>Сделано</th>
+                <th>Выкуплено</th>
+            </tr>
+            <tr>
+                <td>Статичные</td>
+                <td>89</td>
+                <td>80</td>
+            </tr>
+            <tr>
+                <td>Адаптивные</td>
+                <td>30</td>
+                <td>20</td>
+            </tr>
+        </table>
+    </div>
+    </aside>
+    <nav class="nav_class">
+        <a href="#">Главная |</a>
+        <a href="#">Портфолио |</a>
+        <a href="#">Блог</a>
+    </nav>
+    <section class="section_class">
+    <div>
+        <h2>Мои контакты</h2>
+    </div>
+    <div>
+        <h3 class="section-title">Я в соцсетях</h3>
+        <ul>
+            <li><a href="https://vk.com" target="_blank" title="Моя страница в ВК">Я Вконтакте</a></li>
+            <li><a href="https://facebook.com" target="_blank">Я в Фейсбук</a></li>
+            <li><a href="https://twitter.com" target="_blank">Я в Твиттер</a></li>
+        </ul>
+    </div>
+        <div>
+        <h3 class="section-title">Обо мне</h3>
+        <div>
+            <img id="my_ava" src="Photo_1.jpg" alt="My photo" title="Дмитрий Олегович" width="500" height="400" border="2">
+        </div>
+        <div>
+            <h3 class="section-title">Моя биография</h3>
+            <p>He found his art never progressed when he literally used his sweat and tears. 
+            He hated that he loved what she hated about hate. 
+            She learned that water bottles are no longer just to hold liquid, but they're also status symbols. 
+            Flying fish few by the space station. Fluffy pink unicorns are a popular status symbol among macho men. 
+            I think I will buy the red car, or I will lease the blue one. The old apple revels in its authority. 
+            Shadow dots strawberry Pac-Man Midway chaser Pinky kill screen. 
+            Patricia loves the sound of nails strongly pressed against the chalkboard. 
+            Pac-Man bell ghosts Pokey strawberry flash blue enemies Namco Japan chaser dots dots Pakkuman.</p>
+        </div>
+    </div>
+    </section>
+    <section>
+    <div>
+        <h2 class="section-title">Заказать у меня сайт</h2>
+        < action="" method="post">
+            <div>
+            <label for="client_name">Имя клиента:</label>
+            <input type="text" name="client_name" id="client_name" placeholder="Введите имя">
+            </div>
+            <div>
+            <label for="client_email">E-mail Клиента:</label>
+            <input type="text" name="client_email" id="client_email" placeholder="Введите e-mail">
+            </div>
+            <div>
+            <label for="gender">Пол клиента:</label>
+            <input type="radio" name="gender" id="gender" value="male">М
+            <input type="radio" name="gender" id="gender" value="female">Ж
+            </div>
+            <div>
+                <label>
+                    <span>Дополнительные возможности:</span>
+                    <input type="checkbox" name="extra" value="adaptive">Адаптивность
+                    <input type="checkbox" name="extra" value="hosting">Установка на хостинг
+                    <input type="checkbox" name="extra" value="support">Дальнейшая поддержка
+                    <input type="checkbox" name="extra" value="admin">Установка админ-панели
+                </label>
+            </div>
+            <div>
+                <label>
+                    <span>Тип сайта:</span>
+                    <select name="type">
+                        <option value="eshop">Интернет-магазин</option>
+                        <option value="landing">Лэндинг</option>
+                        <option value="card">Сайт-визитка</option>
+                    </select>
+                </label>
+            </div>
+            <div>
+                <label>
+                    <span>Приложите эскиз:</span>
+                    <input type="file" name="file">
+                </label>
+            </div>
+            <div>
+                <input type="submit" value="Отправить">
+                <button type="submit">Отправить</button>
+            </div>
+    </section>
+    <section>
+            <div>
+                <label>
+                    <span>Ваш комментарий:</span>
+                    <textarea name="comment" cols="30" rows="10" maxlength="100"></textarea>
+                    <button type="submit">Отправить</button>
+                    <button type="reset">Сброс</button>
+                </label>
+            </div>
+        </form>
+    </div>
+    </section>
+    </main>
+    <footer>
+        <div>(с) Все права защищены</div>
+        <div><em>Адрес: Рязань, ул. Московское шоссе, д. 33 Г</em></div>
+    </footer>
+</body>
+
+</html>

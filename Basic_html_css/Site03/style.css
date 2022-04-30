@@ -1,0 +1,21 @@
+.wrap {
+    width: 750px;
+    margin: 0 auto;
+}
+
+.content {
+    padding-right: 20px;
+    float: left;
+    width: 80%;
+    clear: both;
+}
+
+.aside {
+    clear: both;
+    float: right;
+    width: 20%;
+}
+
+.footer {
+    clear: both;
+}
